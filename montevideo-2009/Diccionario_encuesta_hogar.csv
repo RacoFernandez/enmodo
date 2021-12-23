@@ -1,0 +1,45 @@
+"La muestra se basó en una submuestra de la ECH mayo 2009. Se volvieron a relevar los hogares allí incluídos para encuestar los viajes realizados en el día hábil anterior. Los datos socioeconómicos no se relevaron, pues ya estaban relevados en la ECH.",,,,
+,,,,
+,,,,
+Hoja Encuesta2009Hogar,,,,
+,,,,
+EncuestaHogar_id,,,Identificador del hogar encuestado,
+DEPARTAMENTO,,,"Departamento donde se ubica el hogar del entrevistado, utilizando la codificación del INE",
+,,,Código correlativo del 1 al 19 comenzando por Montevideo y continuando alfabéticamente,
+,,,1,
+,,,3,
+,,,16,
+Estrato,,,En caso de tomar valores entre 1 y 4 se trata de un identificador del estrato socioeconómico para las zonas censales de Montevideo de acuerdo a la ECH 2009,
+,,,1,Montevideo nivel económico bajo
+,,,2,Montevideo nivel económico medio bajo
+,,,3,Montevideo nivel económico medio alto
+,,,4,Montevideo nivel económico alto
+,,,5,"Periferia de Montevideo (anillo a 30 km) Zonas ZAT 154,155, 156,157, 158, 159, 160, 161, 165, 167 (Incluye San José cercano)"
+,,,9,"Zonas ZAT 164, 166, 177, 178, Canelones"
+,,,10,"Zonas ZAT 168, 169, 170, 172 y 173, Canelones"
+,,,48,"Parte de Zona ZAT 181, San José"
+,,,49,"Parte de Zona ZAT 181, San José"
+IdTamanoHogar,,,1,1 Persona
+,,,2,2 Personas
+,,,3,3 o 4 Personas
+,,,4,5 o mas Personas
+TamanoHogar,,,Detalle de la variable anterior,
+Personas,,,Total de personas en el hogar,
+PersonasMenor4,,,Total de personas menores a cuatro años en el hogar,
+PersonasDesde4,,,Total de personas mayores a cuatro años en el hogar,
+Autos,,,Cantidad de autos en el hogar,
+Motos,,,Cantidad de motos en el hogar,
+Otros,,,Cantidad de otros vehículos en el hogar,
+Vehiculos,,,Total de vehículos,
+EspaciosEstacionamiento,,,Total de espacios de estacionamiento,
+AutoECH,,,El hogar posee auto según ECH/mayo 2009,
+,,,1,Si
+,,,2,No 
+MotoECH,,,El hogar posee moto según ECH/mayo 2009,
+,,,1,Si
+,,,2,No 
+ZonaIMM,,,División geográfica de Montevideo,
+,,,Centro,
+,,,Este,
+,,,Oeste,
+Ponderacion,,,Peso hogar,

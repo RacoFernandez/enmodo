@@ -1,0 +1,15 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 3
+    NumeroDistrito Integer Index 1 ;
+    NomeDistrito Char (60) ;
+    Area_ha Decimal (10, 2) ;
+begin_metadata
+"\IsReadOnly" = "FALSE"
+"\MapInfo" = ""
+"\MapInfo\TableID" = "b9cfe7bb-1af7-4bf0-b218-4a086397afca"
+end_metadata

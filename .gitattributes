@@ -1,0 +1,2 @@
+*.csv filter=lfs diff=lfs merge=lfs -text
+/home/roliverio/Documentos/ADDI/enmodo/ciudad-de-mexico/source-csv/tviaje.csv filter=lfs diff=lfs merge=lfs -text

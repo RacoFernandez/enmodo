@@ -51,6 +51,8 @@ drive.mount('/content/drive')
 
 Para posteriormente reemplazar `data_path` en vez del path del directorio local, por el path correspondiente de drive. [Referencia](https://neptune.ai/blog/google-colab-dealing-with-files)
 
+> :warning: Las funcionalidades del paquete `AVES` (es decir ) solo pueden ejecutarse en Google Colab, por lo cual ciertas celdas que generan algunas de las visualizaciones de las notebooks pueden arrojar error al correrlas de manera local. Próximamente este issue quedará resuelto.
+
 # Fuentes
 
 ### Bogotá

@@ -57,15 +57,28 @@ Para posteriormente reemplazar `data_path` en vez del path del directorio local,
 
 ### Bogotá
 
+[Alcaldía Mayor de Bogotá. Sistema integrado de información sobre Movilidad Urbana Regional. Encuesta de Movilidad Bogotá 2019.](https://www.simur.gov.co/encuestas-de-movilidad)
+
 ### Buenos Aires
+
+[Ministerio de Transporte - Programas y Proyectos Sectoriales y Especiales del Ministerio de Transporte - ENMODO](https://www.argentina.gob.ar/transporte/dgppse/publicaciones/encuestas)
 
 ### Ciudad de México
 
+[Ciudad de México:  Instituto Nacional de Estadística, Geografía e Informática (INEGI). Encuesta Origen Destino en Hogares de la Zona Metropolitana del Valle de México (EOD) 2017](https://www.inegi.org.mx/programas/eod/2017/)
+
 ### Montevideo
+
+* [Intendencia de Montevideo, Observatorio de Movilidad. Encuesta de movilidad del área metropolitana de Montevideo 2016](https://montevideo.gub.uy/observatorio-de-movilidad)
+* [Intendencia de Montevideo, Observatorio de Movilidad. Encuesta de movilidad del área metropolitana de Montevideo 2009](https://montevideo.gub.uy/observatorio-de-movilidad)
 
 ### Santiago de Chile
 
+[Subsecretaría de Transportes del Ministerio de Transportes y Telecomunicaciones (MTT), Programa de Vialidad y Transporte Urbano SECTRA. Encuesta Origen Destino Santiago 2012](http://www.sectra.gob.cl/encuestas_movilidad/encuestas_movilidad.htm)
+
 ### Sao Paulo
+
+[Companhia do Metropolitano de São Paulo - Metrô. Pesquisa Origem e Destino Região Metropolitana de São Paulo 2017](https://www.metro.sp.gov.br/pesquisa-od/index.aspx)
 
 # Contribuidores
 

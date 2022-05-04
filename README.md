@@ -92,4 +92,4 @@ Para posteriormente reemplazar `data_path` en vez del path del directorio local,
 
 # Agradecimientos
 
-El paquete [AVES](https://github.com/zorzalerrante/aves) ha sido de gran ayuda para el desarrollo de las visualizaciones y análisis de GIS.
+El paquete [AVES](https://github.com/zorzalerrante/aves) elaborado por [@zorzalerrante](https://github.com/zorzalerrante) ha sido de gran ayuda para el desarrollo de las visualizaciones y análisis GIS.

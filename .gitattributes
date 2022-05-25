@@ -1,4 +1,15 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 /home/roliverio/Documentos/ADDI/enmodo/ciudad-de-mexico/source-csv/tviaje.csv filter=lfs diff=lfs merge=lfs -text
+sao-paulo/2017/output-geojson/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+buenos-aires/output-geojson/origenes_viajes_etapa.geojson filter=lfs diff=lfs merge=lfs -text
+santiago/output-geojson/origenes_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+bogota/2015/output-geojson/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+bogota/2019/output-geojson/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+ciudad-de-mexico/output-geojson/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+santiago/output-geojson/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+buenos-aires/output-geojson/origenes_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+buenos-aires/output-geojson/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+buenos-aires/output-geojson/destinos_viajes_etapa.geojson filter=lfs diff=lfs merge=lfs -text
+. filter=lfs diff=lfs merge=lfs -text
 *.geojson filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text

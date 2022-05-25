@@ -18,5 +18,7 @@ sao-paulo/2017/output-geojson/origenes_viajes.geojson filter=lfs diff=lfs merge=
 buenos-aires/output-shp/destinos_viajes.geojson filter=lfs diff=lfs merge=lfs -text
 bogota/2015/output-geojson/origenes_viajes.geojson filter=lfs diff=lfs merge=lfs -text
 bogota/2019/output-geojson/origenes_viajes.geojson filter=lfs diff=lfs merge=lfs -text
+sao-paulo/2017/output-shp/destinos_viajes.shp filter=lfs diff=lfs merge=lfs -text
+bogota/2015/output-geojson/viajes_personas_bogota_2015.geojson filter=lfs diff=lfs merge=lfs -text
 *.geojson filter=lfs diff=lfs merge=lfs -text
 *.shp filter=lfs diff=lfs merge=lfs -text

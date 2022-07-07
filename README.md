@@ -2,27 +2,36 @@
 
 # Estructura del repositorio
 
-Hay una carpeta por ciudad. Si se incluyeron diferentes años de las ENMODO para 1 ciudad, va a haber una subcarpeta por cada año para la misma ciudad (ej. Bogotá).
+Existe una carpeta por ciudad. Si se incluyeron diferentes años de las ENMODO para 1 ciudad, va a haber una subcarpeta por cada año para la misma ciudad (ej. Bogotá).
 
 ### Source
 
-Cada ciudad tiene subcarpetas llamadas `source-{file_extension}` que varían dependiendo el tipo de archivo que haya publicado la ciudad con los datos de la ENMODO.
+Cada ciudad tiene subcarpetas llamadas `source-{file_extension}` que incluyen los datos que se publicaron como fuentes oficiales de las ENMODO. El `{file_extension}` varía dependiendo el tipo de archivo que haya utilizado la ciudad para publicar la ENMODO.
 
 ### Output
 
-Cada ciudad tiene carpetas con nombre de extensión ej. `csv` donde hay un output por diferentes tipos de extensión.
+Cada ciudad tiene carpetas llamadas `output-{file_extension}` o sólo con nombre de extensión ej. `csv` donde hay un output por diferentes tipos de extensión con los datos procesados de la ENMODO, tanto en .shp, .geojson y .csv
 
 ### Procesamiento
 
-En las carpetas `python` se encuentra 1 notebook por cada ciudad-año con el procesamiento de los indicadores, diferentes visualizaciones y la generación de los archivos de output.
+En las carpetas `python` se encuentra 1 notebook por cada ciudad-año con el procesamiento de los indicadores, diferentes visualizaciones y la generación de los archivos de output. Este es el core del repositorio, donde esta el código que utiliza y genera los datos del mismo.
 
 # Ejecución notebooks
 
-Para ejecutar las notebooks de manera local, luego de clonar el repositorio, en la notebook que se utilice reemplazar la líneas donde se define el objeto `data_path` por el path local
+Todas las notebooks consumen los datos publicados en este repositorio de Github, por lo cual las notebooks pueden correrse fácilmente luego de instalar las dependencias. Lo único que se debe reemplazar es el objeto `data_path` por el directorio donde se haya clonado el repositorio para luego poder importar el script `eod_analysis.py` con las siguientes celdas.
 
 ```python
-# Reemplazar el string por el path local correspondiente
-data_path = '/home/roliverio/Documentos/ADDI/enmodo/bogota/'
+# Si se está en google colab, reemplazar por path de Drive
+data_path = 'C:/Users/Usuario/Documents/GitHub/enmodo/'
+```
+
+```python
+import sys
+
+# Si se está en google colab, reemplazar por path donde tiene la carpeta "scripts"
+sys.path.insert(1, data_path +'scripts')
+
+import eod_analysis as eod
 ```
 
 ### Google colab
@@ -92,4 +101,6 @@ Para posteriormente reemplazar `data_path` en vez del path del directorio local,
 
 # Agradecimientos
 
-El paquete [AVES](https://github.com/zorzalerrante/aves) elaborado por [@zorzalerrante](https://github.com/zorzalerrante) ha sido de gran ayuda para el desarrollo de las visualizaciones y análisis GIS.
+- El paquete [AVES](https://github.com/zorzalerrante/aves) elaborado por [@zorzalerrante](https://github.com/zorzalerrante) ha sido de gran ayuda para el desarrollo de las visualizaciones y análisis GIS.
+
+- El repositorio de Sebastián Anapolsky con el análisis de la ENMODO de Buenos aires, disponible [aquí](https://github.com/sanapolsky/Analisis-Movilidad-AMBA)
